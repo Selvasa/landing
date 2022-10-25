@@ -13,13 +13,13 @@
     
     </head>
     <body class='bg-dark'>
-      <div class='container '>
+      <div class='container'>
         <!-- Navbar section start-->
-        <nav class='navbar navbar-expand-md navbar-dark navbarhead '>
+        <nav class='navbar navbar-expand-sm  navbar-dark bg-dark sticky-top'>
           <div class='container'>
             <a class='navbar-brand '>Header Logo</a>
-              <div class='navbar'>
-                <ul class='navbar-nav navbar-dark'>
+              
+                <ul class='navbar-nav navbar-dark '>
                   <li class='nav-item  pe-5'>
                     <a class='nav-link '>Home</a>
                   </li>
@@ -30,7 +30,7 @@
                       <a class='nav-link'>Help</a>
                   </li>
                 </ul>
-              </div>
+              
           </div>
         </nav>
         <!-- Navbar section end-->
@@ -40,7 +40,7 @@
           <!-- first row section start-->
           <div class='row pt-4'>
             <!-- first column  start-->
-            <div class='col-6 pt-3 text-white'>
+            <div class='col-sm-6 pt-3 text-white'>
               <h2 class='h2'>This website is awesome</h2>
                   <p class='lead'>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
@@ -48,17 +48,14 @@
                     nulla quae in earum cumque dolorem ipsa fugit qui tempora nostrum?
                     Dolorum tenetur in perferendis rerum beatae.
                   </p>
-                <button class='btn btn-primary col-3 mb-5'>Sign up</button>
+                <button class='btn btn-primary col-md-3 mb-5'>Sign up</button>
             </div>
             <!--1 first column end ....
             ....second column section start-->
-            <div class='col-6'>
-              <div class='row'>
-                <div class='col-10  mt-4 ms-5'>
+            <div class='col-sm-5 ms-auto me-3'>
                   <img src='<?php echo base_url('assets/image/img.jpg')?>' 
-                  alt='best-screenshot.jpeg'class='w-100 h-75'/>
-                </div>
-              </div>
+                  alt='best-screenshot.jpeg'class='w-100 h-75' />
+                
             </div>
           </div>
           <!-- 1 row end second column end ....
@@ -66,7 +63,7 @@
           <div class='row d-flex justify-content-around bg-white pt-4 pb-5'>
             <div class='text-center pb-4 h2'>This is Some Randome Information</div>
                   <img class="col-md-2" style='height:150px'src='<?php echo base_url('assets/image/img1.jpg')?>' 
-                  alt='best-screenshot.jpeg'class='w-100 h-100'/>
+                  alt='best-screenshot.jpeg'class='w-100 h-100 '/>
                   <img class="col-md-2" style='height:150px'src='<?php echo base_url('assets/image/img2.jpg')?>' 
                   alt='best-screenshot.jpeg'class='w-100 h-100'/>
                   <img class="col-md-2" style='height:150px'src='<?php echo base_url('assets/image/img3.jpg')?>' 
@@ -99,13 +96,13 @@
         <!-- body section end-->
         <!-- 5 fifth row-->
         <div class='row bg-white pt-5 pb-5  d-flex justify-content-center'>
-          <div class='col-8 bg-primary text-white row d-flex justify-content-center pt-4 pb-4'> 
+          <div class='col-8 bg-primary text-white row d-flex justify-content-center pt-4 pb-4 rounded'> 
             <div class='col-8 text-start pt-2'>
               <span class='h4'>Call to Action! it's time<br></span>
               Sign up for our product by clicking the button right over there!
              </div>
              
-            <button class='col-2  text-center  btn btn-outline-light btn-sm text-white '>Sign up</button>
+            <button class='col-sm-2  text-center  btn btn-outline-light btn-sm text-white '>Sign up</button>
             
           </div>
         </div>
