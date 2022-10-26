@@ -1,4 +1,8 @@
-.navcustome{
-    background-color: rgb(18, 139, 219);
-    color:red;
+
+.logo_design {
+    font-size:18px;
+    color:rgb(243, 248, 253) !important; 
+}
+.navbar-toggler{
+    background-color:rgb(243, 248, 253) !important;
 }

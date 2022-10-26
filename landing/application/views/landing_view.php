@@ -18,9 +18,9 @@
     
       <div class='container'>
         <!-- Navbar section start-->
-        <nav class='navbar navbar-expand-sm smsticky-top navcustome navbar-dark'>
+        <nav class='navbar navbar-expand-sm sticky-top bg-dark'>
           <div class='container '>
-            <a class='navbar-brand'><span><i class="fa-brands fa-cloudflare"></i></span> cloudflare</a>
+            <a class='navbar-brand logo_design'><span><i class="fa-brands fa-cloudflare "></i></span> cloudflare</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                    </button>
@@ -97,18 +97,18 @@
                     nulla quae in earum cumque dolorem ipsa fugit qui tempora nostrum?
                     Dolorum tenetur in perferendis rerum beatae.
                   </p>
-            </div>
-            <div class="col-md-3">
-                <img class="img-fluid"src='<?php echo base_url('assets/image/img4.jpg')?>' 
-                  alt='best-screenshot.jpeg'/>
-                  <p class='lead'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Eos, eaque praesentium! Placeat asperiores, 
-                    nulla quae in earum cumque dolorem ipsa fugit qui tempora nostrum?
-                    Dolorum tenetur in perferendis rerum beatae.
-                    
-                  </p>
-</div>
+              </div>
+                <div class="col-md-3">
+                  <img class="img-fluid"src='<?php echo base_url('assets/image/img4.jpg')?>' 
+                    alt='best-screenshot.jpeg'/>
+                    <p class='lead'>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                      Eos, eaque praesentium! Placeat asperiores, 
+                      nulla quae in earum cumque dolorem ipsa fugit qui tempora nostrum?
+                      Dolorum tenetur in perferendis rerum beatae.
+                      
+                    </p>
+                </div>
             </div>
             <!--second row section end-->
             <!-- third row section start-->
@@ -124,21 +124,21 @@
                </div>
             </div>
              <!--third row section end-->
-          
-        
-        
             <!-- 4 Fourth row section start-->
-        
-        <div class='row bg-white pt-5 pb-5  d-flex justify-content-center'>
-          <div class='col-8 bg-primary text-white row d-flex  pt-4 pb-4 rounded'> 
-            <div class='col-9 text-start'>
-              <p class='h4'>Call to Action! it's time<br></p>
-              Sign up for our product by clicking the button right over there!
-             </div>
-             <div class='col-sm-3 mt-4'>
-            <button class=' btn btn-outline-light text-white '>Sign up</button>
+        <div class="row bg-white pt-5 pb-5">
+          <div class="col-sm-2"></div>
+           <div class="col-sm-8">
+              <div class="row bg-primary pt-3 pb-3 ps-2">
+                <div class="col-sm-8 text-white">
+                  <p class='h4'>Call to Action! it's time</p>
+                  <p>Sign up for our product by clicking the button right over there!</p>
+                </div>
+                <div class="col-sm-4 mt-4 ps-5">
+                  <button class=' btn btn-outline-light text-white '>Sign up</button>
+                </div>
+              </div>
             </div>
-          </div>
+          <div class="col-md-2"></div>
         </div>
         <!-- 4 Fourth row section end-->
         <!--This is footer section-->
