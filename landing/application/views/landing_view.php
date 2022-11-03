@@ -20,7 +20,7 @@
         <!-- Navbar section start-->
         <nav class='navbar navbar-expand-sm sticky-top bg-dark'>
           <div class='container '>
-            <a class='navbar-brand logo_design'><span><i class="fa-brands fa-cloudflare "></i></span> cloudflare</a>
+            <a class='navbar-brand h1 logo_design '><span><i class="fa-brands fa-cloudflare "></i></span> cloudflare</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                    </button>
