@@ -53,7 +53,7 @@
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Eos, eaque praesentium! Placeat asperiores, 
                     nulla quae in earum cumque dolorem ipsa fugit qui tempora nostrum?
-                    Dolorum tenetur in perferendis rerum beatae.
+                    Dolorum tenetur in perferendis rerum.
                   </p>
                 <button class='btn btn-primary col-md-3'>Sign up</button>
             </div>
